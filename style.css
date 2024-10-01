@@ -116,6 +116,7 @@ img {
   z-index: 2;
   display: flex;
   font-size: 1.25rem;
+  color: white;
 }
 
 .header {
