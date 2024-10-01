@@ -147,11 +147,11 @@ img {
 
 .nav-item a:hover {
   text-decoration: none;
-  color: black;
 }
 
-.nav-item a, i {
-  color: black;
+.nav-item i,
+.nav-item a {
+  color: white;
 }
 
 .nav-menu {
@@ -172,25 +172,47 @@ img {
 }
 
 @media screen and (max-width: 640px) {
-
+  .portfolio,
+  .enquire {
+    margin: 5rem;
+  }
 }
 
 @media screen and (min-width 1280px) { /* 1280px and up (large desktop) */
-
+  .portfolio,
+  .enquire {
+    margin: 5rem;
+  }
 }
 
 @media screen and (min-width: 1024px) { /* large laptops */
-
+  .portfolio,
+  .enquire {
+    margin: 5rem;
+  }
 }
 
 @media screen and (min-width: 768px) { /* tablets */
-
+  .portfolio,
+  .enquire {
+    margin: 6rem;
+    max-width: 350px;
+  }
 }
 
 @media screen and (min-width: 640px) { /* large mobile */
-  .container {
-    margin: auto 5000px; /* not working */
-    background-color: grey;
+  .portfolio,
+  .enquire {
+    margin: 6rem;
+    max-width: 350px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .portfolio,
+  .enquire {
+    margin: 6rem;
+    max-width: 300px;
   }
 }
 
@@ -241,7 +263,6 @@ img {
 
 .hero {
   position: relative;
-  overflow: hidden;
   background-size: cover;
   background-position: center;
 }
@@ -282,7 +303,6 @@ h3, p, a {
 }
 
 .container {
-  margin: 50px 500px;
   background-color: rgba(128, 128, 128, .2);
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.7),
