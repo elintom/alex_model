@@ -142,10 +142,6 @@ img {
   z-index: 2;
 }
 
-.nav-home i {
-  color: white;
-}
-
 .nav-item a:hover {
   text-decoration: none;
 }
@@ -224,18 +220,6 @@ img {
     margin: 6rem;
     max-width: 300px;
   }
-}
-
-.nav-border {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  row-gap: 1.5rem;
-}
-
-.nav-text {
-  color: white;
-  border-bottom: white 1px solid;
 }
 
 .nav-buttons {
