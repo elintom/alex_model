@@ -309,19 +309,19 @@ h3, p, a {
               0 0 10px #056e63;
   padding: 20px;
   text-align: center;
-
 }
 
 .card-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  background-color: transparent; /* not working */
 }
 
 .card {
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1),
-              0 0 7px #056e63;
+              0 0 7px #056e63; /* not working */
   margin: 15px;
   overflow: hidden;
   width: 300px;
@@ -347,9 +347,7 @@ h3, p, a {
 }
 
 .card p {
-  padding: 0 15px 15px;
   color: #666;
-  line-height: 1.5;
 }
 
 .footer {
@@ -357,7 +355,7 @@ h3, p, a {
   bottom: 0;
   display: flex;
   justify-content: center;
-  padding: 20px;
+  padding-bottom: 20px;
 }
 
 .footer-card {
@@ -367,15 +365,6 @@ h3, p, a {
 .footer-card a:hover {
   text-decoration: none;
   color: #056e63;
-}
-
-.footer ul {
-  list-style: none;
-  padding: 0;
-}
-
-.footer ul li {
-  margin-bottom: 10px;
 }
 
 .footer a {
