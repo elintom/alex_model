@@ -297,6 +297,11 @@ h3, p, a {
   text-align: center;
 }
 
+.container p,
+.container h3 {
+  color: #bebbbb;
+}
+
 .card-container {
   display: flex;
   flex-wrap: wrap;
