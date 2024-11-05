@@ -74,20 +74,6 @@ img {
               0 0 10px #056e63;
 }
 
-.button-pink {
-  -webkit-background-clip: text;
-  color: white;
-  background-clip: text;
-  background: transparent;
-  border: #9e01a1 2px solid;
-  border-radius: 30px;
-  padding: 8px 15px;
-  font-family: var(--body-font);
-  list-style: none;
-  text-decoration: none;
-  margin: .25rem;
-}
-
 .button-purple {
   -webkit-background-clip: text;
   -webkit-text-fill-color: rgba(255, 255, 255, .6);
@@ -183,6 +169,7 @@ img {
 }
 
 @media screen and (min-width: 1024px) { /* large laptops */
+  /* add hero section to center or full screen */
   .portfolio,
   .enquire {
     margin: 5rem;
@@ -257,8 +244,8 @@ img {
 
 .hero {
   position: relative;
-  background-size: cover;
-  background-position: center;
+  min-width: cover;
+  align-items: center; /* not working */
 }
 
 .hero-text {
